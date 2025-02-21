@@ -136,3 +136,41 @@ nav ul li a:hover {
     color: black;
     transform: scale(1.1);
 }
+
+.hobby-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.hobby-box {
+    width: 250px;
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.hobby-box img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.hobby-box h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.hobby-box p {
+    font-size: 16px;
+}
+
+.hobby-box:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
