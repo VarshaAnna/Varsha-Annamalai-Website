@@ -1,0 +1,106 @@
+/* Navigation Bar Styles */
+nav {
+    background-color: #424242;
+    padding: 20px;
+    display: flex;
+    text-align: right;
+    justify-content: space-between;
+}
+
+/* Logo Styling */
+.logo {
+    color: white; /* Makes the text white */
+    font-size: 30px; /* Adjusts the size */
+    font-weight: bold; /* Makes it bold */
+    margin-left: 15px; /* Adds spacing from the left */
+    margin-top: 10px;
+}
+
+/* Navigation Links */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    /* margin: 0; */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: rgb(0, 217, 255);
+}
+
+/* Hero Section */
+.hero {
+    text-align: center; /* Centers all content inside */
+    padding: 80px 20px; /* Adds space inside (80px top-bottom, 20px left-right) */
+    background-color: #cfdadb; /* Dark background color */
+    color: #333; /* White text */
+}
+
+.hero h1 {
+    font-size: 36px; /* Increases the text size */
+    margin-bottom: 10px; /* Adds spacing below the heading */
+}
+
+.hero p {
+    font-size: 18px; /* Sets a readable font size */
+    margin-bottom: 25px; /* Adds space below the paragraph */
+}
+
+/* Button Styles */
+.btn {
+    background-color: #333; /* Button color */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Adds space inside the button */
+    text-decoration: none; /* Removes the default underline */
+    font-size: 18px; /* Increases the font size */
+    border-radius: 5px; /* Rounds the button corners */
+}
+
+.btn:hover {
+    background-color: rgb(128, 201, 214); /* Changes the button color when hovered */
+    color: black; /* Text color change on hover */ 
+}
+
+/* About me */
+.about {
+    text-align: center; /* Centers all content inside */
+    padding: 80px 20px; /* Adds space inside */
+    background-color: #cfdadb; /* Light grey background */
+    color: #333; /* Dark text color */
+}
+
+.about h2 {
+    font-size: 32px; /* Increases heading size */
+    margin-bottom: 10px; /* Adds spacing below */
+}
+
+.about p {
+    font-size: 18px; /* Readable text */
+    margin-bottom: 20px; /* Spacing between paragraph and button */
+}
+
+.about .btn {
+    background-color: #333; /* Dark background for contrast */
+    color: white; /* White text */
+    padding: 10px 20px; /* Adds space inside button */
+    text-decoration: none; /* Removes underline */
+    font-size: 18px; /* Readable text */
+    border-radius: 5px; /* Rounded corners */
+    display: inline-block; /* Makes the button inline */
+    transition: background 0.3s ease; /* Smooth color transition */
+}
+
+.about .btn:hover {
+    background-color: rgb(128, 201, 214); /* Changes color on hover */
+    color: black; /* Text color change on hover */
+}
