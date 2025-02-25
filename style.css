@@ -4,7 +4,11 @@ nav {
     padding: 20px;
     display: flex;
     text-align: right;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
+    justify-content: space-between; /* Moves content to the right */
+    align-items: center;
+    
+
 }
 
 /* Logo Styling */
@@ -12,12 +16,26 @@ nav {
     color: white; /* Makes the text white */
     font-size: 30px; /* Adjusts the size */
     font-weight: bold; /* Makes it bold */
-    margin-left: 15px; /* Adds spacing from the left */
-    margin-top: 10px;
+    margin-left: 5px; /* Adds spacing from the left */
+    margin-top: 5px;
 }
 
 .logo:hover {
     color: rgb(0, 217, 255); /* Changes the color on hover */
+}
+
+/* Logo Styling */
+.logos img {
+    height: 50px; /* Adjust as needed */
+    width: auto; /* Maintains aspect ratio */
+    margin-left: 15px; /* Spacing from left */
+    transition: transform 0.3s ease-in-out;
+    background-image: url('Images/VA logo2.png');
+}
+
+/* Add hover effect */
+.logos img:hover {
+    transform: scale(1.1); /* Slightly enlarges the logo on hover */
 }
 
 /* Navigation Links */
@@ -115,7 +133,16 @@ nav ul li a:hover {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px; /* Space between cubes */
-    padding: 20px;
+    padding: 40px;
+    background-color: #cfdadb;
+}
+
+.projects-grid h1 {
+    text-align: center; /* Centers the text */
+    width: 100%; /* Ensures full-width alignment */
+    font-size: 2rem; /* Adjust size as needed */
+    margin-bottom: 20px; /* Space below the heading */
+    color: #333; /* Dark text color */
 }
 
 .project {
@@ -149,11 +176,20 @@ nav ul li a:hover {
     justify-content: center;
     gap: 20px;
     padding: 40px;
+    background-color: #cfdadb;
+}
+
+.hobby-container h1 {
+    text-align: center;
+    width: 100%;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333; /* Dark text color */
 }
 
 .hobby-box {
     width: 250px;
-    background: #222;
+    background: #333;
     color: white;
     text-align: center;
     padding: 20px;
@@ -237,3 +273,4 @@ form textarea {
 .btn:hover {
     background-color: rgb(128, 201, 214);
 }
+
